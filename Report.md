@@ -46,5 +46,6 @@ We cannot use the naive code implementation in `NN_from_scratch.py` for the abov
 So, I wrote another code which uses fast NumPy computations, something which the previous code didn't.
 The code still does not use any other library like pytorch or tensorflow.
 
-After training till my loss function didnt change by much, I got a classification accuracy of 85.38% on the test dataset (loss of 0.022).
+After training till my loss function didnt change by much, I got a classification accuracy of 90.08% on the test dataset (mean squared error of 0.0157).
+
 
