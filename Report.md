@@ -6,7 +6,9 @@ This is a code implementing a neural network (with one hidden layer) from scratc
 
 For each row of data, we have the mean squared loss $$L = \frac{1}{n_{out}} \sum_{k=1}^{n_{out}}(y_k - o_k)^2$$
 
-where $$o_k = f(w_{o_k} \cdot h + b_{o_{k}})$$
+where
+
+$$o_k = f(w_{o_k} \cdot h + b_{o_{k}})$$
 $$h = [h_1, h_2, \dots]$$
 $$h_j = f(w_{h_j} \cdot x + b_{h_{j}})$$
 $$x = [x_1, x_2, \dots]$$
@@ -45,3 +47,4 @@ So, I wrote another code which uses fast NumPy computations, something which the
 The code still does not use any other library like pytorch or tensorflow.
 
 After training till my loss function didnt change by much, I got a classification accuracy of 85.38% on the test dataset (loss of 0.022).
+
